@@ -1,1 +1,0 @@
-from .WindowStructure import WindowStructure
