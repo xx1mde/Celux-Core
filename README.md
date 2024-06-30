@@ -6,7 +6,7 @@ To use, place the bin directory at the root of your project.
 
 Example:
 
-```
+```python
 from pyACI import Window
 from pyACI.structures import WIN_CLASS
 from pyACI.functions import Logger
