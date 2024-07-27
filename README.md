@@ -31,3 +31,14 @@ class WinMain(Window):
 if __name__ == "__main__":
 	WinMain().build()
 ```
+
+
+Your project should look like this:
+
+```
+app\
+———— main.py
+———— bin\
+———————— celux.dll
+———— <other>
+```
