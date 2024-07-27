@@ -7,9 +7,11 @@ To use, place the bin directory at the root of your project.
 Example:
 
 ```python
-from pyACI import Window
-from pyACI.structures import WIN_CLASS
-from pyACI.functions import Logger
+from celux import Window
+from celux.structures import WIN_CLASS
+from celux.functions import Logger
+
+from celux.tools import hex_to_rgba
 
 Logger.FLAG = True
 
@@ -18,9 +20,10 @@ class WinMain(Window):
 		super(WinMain, self).__init__(*args, **kwargs)
 
 		self.RESIZABLE = False
+		self.SIZE = (900, 500)
 		self.BORDER = True
 		self.TITLE = "Test"
-		self.BGCOLOR = (0, 0.2, 0.1, 1)
+		self.BGCOLOR = hex_to_rgba("a4afff05", Logger.stderr)
 
 	def on_start(self): pass
 	def on_close(self): pass
