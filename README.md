@@ -1,6 +1,6 @@
---------------- Absolutely Controlled Interface: ACI ---------------
+--------------- Celeriter Lux Core: Celux ---------------
 
-ACI provides a lightweight interface with the possibility of maximum customization. Written in C using GLFW + OpenGL. Has a Python wrapper. In developing.
+Celux provides a lightweight interface with the possibility of maximum customization. Written in C using GLFW + OpenGL. Has a Python wrapper. In developing.
 
 To use, place the bin directory at the root of your project.
 
